@@ -1,0 +1,79 @@
+<!--
+ * @Author: iris.ilinke@gmail.com
+ * @Date: 2023-05-20 19:18:54
+ * @LastEditors: iris.ilinke@gmail.com
+ * @LastEditTime: 2023-05-21 07:29:20
+ * @FilePath: /untitled folder/index.html
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" media="screen" id="main-styles"
+        href="https://speshtees.com/assets/frontend/theme_6/css/theme.min.css">
+
+    <style>
+        body {
+
+            background-color: #2b3445 !important;
+        }
+
+        .row {
+            margin-top: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="row pb-3 justify-content-md-center" bis_skin_checked="1">
+        <div class="col-md-3 col-sm-6 mb-4" bis_skin_checked="1">
+            <div class="media" bis_skin_checked="1"><i class="far fa-credit-card text-primary"
+                    style="font-size: 2.25rem;"></i>
+                <div class="media-body pl-3" bis_skin_checked="1">
+                    <h6 class="font-size-base text-light mb-1">Secure Online Payment</h6>
+                    <p class="mb-0 font-size-ms text-light opacity-50">SSL Encrypted - 100% Secure Ordering</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4" bis_skin_checked="1">
+            <div class="media" bis_skin_checked="1"><i class="fas fa-headset text-primary"
+                    style="font-size: 2.25rem;"></i>
+                <div class="media-body pl-3" bis_skin_checked="1">
+                    <h6 class="font-size-base text-light mb-1">Fast Customer Support</h6>
+                    <p class="mb-0 font-size-ms text-light opacity-50">Our friendly staff is here to help</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4" bis_skin_checked="1">
+            <div class="media" bis_skin_checked="1"><i class="fas fa-shipping-fast text-primary"
+                    style="font-size: 2.25rem;"></i>
+                <div class="media-body pl-3" bis_skin_checked="1">
+                    <h6 class="font-size-base text-light mb-1">Fast Shipping</h6>
+                    <p class="mb-0 font-size-ms text-light opacity-50">Fast Worldwide Shipping</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            let icons = document.querySelectorAll(".text-primary");
+            for (let i = 0; i < icons.length; i++) {
+                icons[i].style.color = "red";
+            }
+        }
+
+        window.onload = myFunction();
+    </script>
+
+</body>
+
+</html>
